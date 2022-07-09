@@ -59,11 +59,12 @@ make create_virtualenv
 
 ### Requirements
 
-Use the [requirements.frozen](/requirements.frozen) file to declare the project's dependencies, and
-[requirements.test.frozen](/requirements.test.frozen) to declare dependencies that are only required to run tests. As
-indicated in the filenames, it is advised to declare the dependencies with explicit versions (example:
-requests==2.28.1). This will save you headaches when a new dependency version is released right when you were running
-a deployment pipeline.
+Use the [requirements.frozen](/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/requirements.frozen) file to declare 
+the project's dependencies, and [requirements.test.frozen](/%7B%7B%20cookiecutter.project_package_name%20%7D%7D/requirements.test.frozen) 
+to declare dependencies that are only required to run tests. As indicated in the filenames, it is advised to declare 
+the dependencies with explicit versions (example: _requests==2.28.1_). This will allow you to control when to upgrade
+dependencies versions, and will save you headaches when a new dependency version is released right when you were 
+running a deployment pipeline.
 
 To install the requirements in the venv, run:
 ```shell
