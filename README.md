@@ -34,10 +34,29 @@ This template uses [pre-commit](https://pre-commit.com/) to run GIT hooks in you
 
 This helps developers to keep the same code styling in the project.
 
-To install the hooks in your repo, first [install pre-commit](https://pre-commit.com/#install) in your system. Then do 
-the following:
+To install the hooks in your repo, first [install pre-commit](https://pre-commit.com/#install) in your system. Then run:
 ```shell
 make install_git_hooks
+```
+
+
+## Docker
+
+You can build and run this project with Docker.
+
+To build the Docker image, run:
+```shell
+make docker_build
+```
+
+To start the Docker image, run:
+```shell
+make docker_run
+```
+
+To build and start the Docker image with a single command, run:
+```shell
+make docker_build_and_run
 ```
 
 
@@ -90,24 +109,4 @@ Add your unit tests to the
 To run all unit tests:
 ```shell
 make run_unit_tests
-```
-
-
-## Docker
-
-You can build and run this project with Docker.
-
-To build the Docker image, run:
-```shell
-make docker_build
-```
-
-To start the Docker image, run:
-```shell
-make docker_run
-```
-
-To build and start the Docker image with a single command, run:
-```shell
-make docker_build_and_run
 ```
