@@ -1,3 +1,8 @@
+<p align="center">
+  <img alt="Create App logo" src="https://raw.githubusercontent.com/application-creators/create_app/main/docs/static/logo-cropped.png">
+</p>
+
+
 # Python Project Template
 
 This is a template used by [create_app](https://github.com/application-creators/create_app) to create a 
