@@ -3,6 +3,12 @@
 </p>
 
 
+<p align="center">
+    <a href="https://github.com/application-creators/python_simple/actions"><img alt="Test Creation Workflow Status" src="https://github.com/application-creators/python_simple/workflows/Test%20Creation/badge.svg"></a>
+    <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</p>
+
+
 # Python Project Template
 
 This is a template used by [create_app](https://github.com/application-creators/create_app) to create a 
