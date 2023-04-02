@@ -17,8 +17,8 @@ new (simple) Python project.
 To create your new project from this template, simply run:
 
 ```shell
-pip install create_app
-python -m create_app python_simple
+python -m pip install create_app
+create_app create python_simple
 ```
 
 
